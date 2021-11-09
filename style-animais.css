@@ -1,0 +1,78 @@
+body {
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #4c4c4c;
+    background-color: #f8f8f8;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    height: 8.4em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid;
+    border-color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #4c4c4c;
+}
+
+.topo {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.icon {
+    height: 1.4em;
+}
+
+.pesquisa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 1em;
+    width: 20rem;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.conteudo {
+    padding-top: 8.4em;
+}
+
+nav {
+    height: 5.2rem;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style: none;
+    display: inline-flex;
+    margin: 0;
+}
+
+nav>ul>li {
+    padding: 1em;
+}
