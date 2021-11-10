@@ -1,0 +1,245 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(rgba(0, 0, 0,0.25), rgba(0, 0, 0,0.25)100%), url('imgs-restaurante/planodefundo.webp');
+    background-size: auto;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: Arial,Helvetica,sans-serif;
+    overflow-x: auto;
+    overflow-y: scroll;
+    height: 100%;
+    color: white;
+}
+
+.simbolo {
+    width: 14em!important;
+    height: 3.5em!important;
+    fill: white;
+    stroke: white;
+    overflow: visible;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 5.4em;
+    background-color: #362e26;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    position: fixed;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+nav>a {
+    color: white!important;
+    font-family: Helvetica!important;
+    line-height: 3.5em;
+    font-size: 1.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+header {
+    padding-top: 5.4em;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50em;
+    padding-bottom: 9.4em;
+}
+
+.contente {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 0;
+    margin-top: 1.5em;
+    font-family: 'Cookie', cursive;
+    font-style: italic;
+    font-size: 17.2em;
+    line-height: 0.8em;
+    vertical-align: baseline;
+}
+
+h2 {
+    font-size: 2.8em;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    font-family: sans-serif;
+    color: white;
+    width: 26.4em;
+    height: 6.2em;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+p.subtitle {
+    font-size: 2.5em;
+    font-family: sans-serif;
+    letter-spacing: 0.3em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+#sobre {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40.6em;
+    background: url(imgs-restaurante/granulado.webp)50%, #e78585;
+    padding-top: 5.4em;
+}
+
+p.descricao {
+    font-family: Helvetica;
+    font-size: 1.5em;
+    line-height: 2.1em;
+    width: 54.8em;
+    height: 27.3em;
+}
+
+#sabores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 60.6em;
+    background-color: white;
+    padding-top: 5.4em;
+    color: black;
+}
+
+h3 {
+    font-size: 2.8em;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    font-family: sans-serif;
+    color: rgb(54,46,38);
+    width: 26.4em;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+main>section>svg {
+    width: 14em!important;
+    height: 3.5em!important;
+    fill: rgb(239,173,173);
+    stroke: rgb(239,173,173);
+    overflow: visible;
+}
+
+main>section>p {
+    color: #605e5e;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 1.5em;
+    line-height: 2.1em;
+    width: 74.8em;
+    height: 4.2em;
+    margin-bottom: 6em;
+    margin-left: 6em;
+}
+
+#quem {
+    display: flex;
+    justify-content: space-evenly;
+    height: 60.6em;
+    background-color: rgb(112,186,190);
+    padding-top: 5.4em;
+    padding-left: 10.4em;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    width: 404px;
+}
+
+main>section>article>h2 {
+    align-items: flex-start;
+    text-align: start;
+    height: auto;
+    margin: 0;
+    margin-top: 1.64em;
+}
+
+main>section>article>p {
+    font-family: Helvetica;
+    font-size: 1.5em;
+    line-height: 2.1em;
+    width: 400px;
+    height: 250px;
+}
+
+#profissional {
+    width: 450px;
+    height: 450px;
+}
+
+#galeria {
+    display: flex;
+    cursor: pointer;
+    height: 46em;
+    padding-top: 5.4em;
+    background-color: rgb(112,186,190);
+    overflow: hidden;
+}
+
+#carrosel {
+    width: 50em;
+    height: 46em;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(54,46,38);
+    height: 44.5em;
+    padding-top: 5.4em;
+}
+
+.complemento {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ladodoform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 22.8em;
+    text-align: center;
+}
+
+footer>section>div>h2 {
+    align-items: center;
+    height: auto;
+    margin: 0;
+    margin-top: 1.64em;
+}
+
+.referencia {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}

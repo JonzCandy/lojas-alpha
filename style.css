@@ -1,15 +1,7 @@
-main {
+body {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-}
-
-article {
-    display: flex;
-    justify-content: space-evenly;
-    align-content: space-around;
 }
 
 a {
